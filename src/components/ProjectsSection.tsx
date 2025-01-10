@@ -7,7 +7,7 @@ import Image3 from "./../../public/img-grid-3.png";
 export default function ProjectsSection() {
   return (
     <div className="bg-[#EFF2F1]">
-      <div className="px-5 xl:px-0 xl:w-[70%] xl:mx-auto flex flex-col lg:flex-row-reverse lg:justify-between py-10">
+      <div className="px-5 xl:px-0 xl:w-[70%] xl:mx-auto flex flex-col lg:flex-row-reverse lg:justify-between lg:py-28">
         {/* Left Div */}
         <div className="lg:w-2/5">
           <div className="space-y-5">
