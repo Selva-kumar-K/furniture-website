@@ -52,6 +52,11 @@ export default function ProjectsSection() {
               </ul>
             </div>
           </div>
+          <div>
+            <button className="bg-[#A3A380] text-white hover:bg-[#EFEBCE] hover:text-black rounded-full px-8 py-2">
+              Explore
+            </button>
+          </div>
         </div>
         {/* Right Div */}
         <div className="hidden lg:block lg:w-3/5">
