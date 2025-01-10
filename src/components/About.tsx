@@ -5,9 +5,9 @@ import Image from "next/image";
 export default function About() {
   return (
     <div className="bg-[#EFF2F1]">
-      <div className="px-5 xl:px-0 xl:w-[70%] xl:mx-auto flex justify-between py-10">
+      <div className="px-5 xl:px-0 xl:w-[70%] xl:mx-auto flex flex-col lg:flex-row lg:justify-between py-10">
         {/* Left Div */}
-        <div className="w-1/2">
+        <div className="lg:w-1/2">
           <div className="space-y-5">
             <h1 className="font-inter font-semibold text-[34px] text-[#3B5D50]">
               Why Choose Us
@@ -18,8 +18,8 @@ export default function About() {
             </p>
           </div>
 
-          <div className="my-14 gap-y-8 grid grid-cols-2 place-content-center">
-            <div className="w-[200px]">
+          <div className="my-14 gap-y-8 grid md:grid-cols-2 md:place-content-center">
+            <div className="md:w-[200px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -42,7 +42,7 @@ export default function About() {
                 Nulla vivethe as it was
               </p>
             </div>
-            <div className="w-[200px]">
+            <div className="md:w-[200px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -66,7 +66,7 @@ export default function About() {
                 Nulla vivethe as it was
               </p>
             </div>
-            <div className="w-[200px]">
+            <div className="md:w-[200px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -90,7 +90,7 @@ export default function About() {
                 Nulla vivethe as it was
               </p>
             </div>
-            <div className="w-[200px]">
+            <div className="md:w-[200px]">
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
@@ -117,7 +117,7 @@ export default function About() {
           </div>
         </div>
         {/* Right Div */}
-        <div className="w-1/3">
+        <div className="hidden lg:block lg:w-2/5">
         <div>
             <Image src={AboutImage} alt="about" className="h-[550px] object-cover rounded-md" />
         </div>
