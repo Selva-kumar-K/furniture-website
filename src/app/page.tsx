@@ -1,4 +1,6 @@
 import About from "@/components/About";
+import FooterSection from "@/components/FooterSection";
+import Footer from "@/components/FooterSection";
 import Header from "@/components/Header";
 import ProductSection from "@/components/ProductSection";
 import ProductViewSection from "@/components/ProductViewSection";
@@ -15,6 +17,7 @@ export default function Home() {
       <ProjectsSection/>
       <ProductViewSection/>
       <Testimonials/>
+      <FooterSection/>
     </main>
   );
 }
